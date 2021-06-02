@@ -180,7 +180,30 @@ button {
     min-width: 400px;
     margin: 15px auto;
     padding: 25px;
+    overflow: auto;
 }
+
+.moreAction::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.moreAction::-webkit-scrollbar-track {
+    background: transparent;
+    margin: auto 15px;
+    /* background-color: #00000080; */
+    border-radius: 2px;
+}
+
+.moreAction::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Row for moreAction button and it's field */
 

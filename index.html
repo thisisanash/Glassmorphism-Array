@@ -22,42 +22,54 @@
             <div class="heading">
                 Array Program
             </div>
-            <div class="mainField field">
+            <div class="mainField field" id="ArrField">
                 1,2,3,6
             </div>
             <div class="largeBtn">
-                <button onclick="modeBtn();"><span>Add</span></button>
-                <button><span>Delete</span></button>
+                <button onclick="adding(myArray);"><span>Add</span></button>
+                <button onclick="deleting(myArray);"><span>Delete</span></button>
             </div>
             <div class="moreAction">
                 <div class="fieldRow">
-                    <button class="btn" onclick=""><span>Shortest</span></button>
+                    <button class="btn" onclick="shortest(myArray);"><span>Shortest</span></button>
                     <span class="btnField field">
-                        <p id="">Shortest Element</p>
+                        <p id="shortestField">Shortest Element</p>
                     </span>
                 </div>
                 <div class="fieldRow">
-                    <button class="btn" onclick=""><span>Shortest</span></button>
+                    <button class="btn" onclick="largest(myArray);"><span>Largest</span></button>
                     <span class="btnField field">
-                        <p id="">Largest Element</p>
+                        <p id="largestField">Largest Element</p>
                     </span>
                 </div>
                 <div class="fieldRow">
-                    <button class="btn" onclick=""><span>Shortest</span></button>
+                    <button class="btn" onclick="largeTwo(myArray);"><span>Second Largest</span></button>
                     <span class="btnField field">
-                        <p id="">Second largest Element</p>
+                        <p id="largeTwoField">Second largest Element</p>
                     </span>
                 </div>
                 <div class="fieldRow">
-                    <button class="btn" onclick=""><span>Shortest</span></button>
+                    <button class="btn" onclick="sum(myArray);"><span>Sum</span></button>
                     <span class="btnField field">
-                        <p id="">Reverse Elements</p>
+                        <p id="sumField">Sum of Elements</p>
                     </span>
                 </div>
                 <div class="fieldRow">
-                    <button class="btn" onclick=""><span>Shortest</span></button>
+                    <button class="btn" onclick="reverseArray(myArray);"><span>Reverse</span></button>
                     <span class="btnField field">
-                        <p id="">Frequency of Element</p>
+                        <p id="reverseField">Reverse of Elements</p>
+                    </span>
+                </div>
+                <div class="fieldRow">
+                    <button class="btn" onclick="EvenOdd(myArray);"><span>Even And Odd</span></button>
+                    <span class="btnField field">
+                        <p id="EvenOddField">Even And Odd Elements</p>
+                    </span>
+                </div>
+                <div class="fieldRow">
+                    <button class="btn" onclick="frequency(myArray);"><span>Frequency</span></button>
+                    <span class="btnField field">
+                        <p id="frequencyField">Frequency of Elements</p>
                     </span>
                 </div>
             </div>
@@ -71,8 +83,7 @@
             <img src="circle.png">
         </span>
     </div>
-    <!-- Menu -->
-    <!-- <div class="floating-menu"> -->
+    <!-- Floating Menu -->
     <div class="menu">
         <section class="links field">
             <a href="https://www.instagram.com/thisisanash/" target="_blank">
@@ -85,7 +96,7 @@
                 <img src="Links container svgs/Youtube stroke.svg"/>Youtube
             </a>
             <a href="https://anashlinks.netlify.app/" target="_blank">
-                <img src="Links container svgs/link tree.svg"/>Other..
+                <img src="Links container svgs/link tree.svg"/>Other...
             </a>
         </section>
         <div class="menu-button">
