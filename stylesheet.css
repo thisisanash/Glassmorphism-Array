@@ -198,7 +198,7 @@ button {
 }
 
 .moreAction::-webkit-scrollbar-thumb {
-    background-color: #d6dee1;
+    background-color: #0099DB80;
     border-radius: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -277,7 +277,7 @@ button {
 }
 
 .btnField::-webkit-scrollbar-thumb {
-    background-color: #d6dee1;
+    background-color: #0099DB80;
     border-radius: 5px;
 }
 
@@ -324,7 +324,7 @@ footer {
     bottom: 0px;
     font-size: 16px;
     color: #fff;
-    background-color: rgb(1, 162, 162);
+    background-color: #0099dbb3;
     /* border-radius: 60px 60px 0px 0px; */
     text-align: center;
 }
@@ -414,7 +414,7 @@ footer {
     width: 50px;
     height: 50px;
     overflow: hidden;
-    background-color: #01A1A1;
+    background-color: #0099DB;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -422,7 +422,7 @@ footer {
     cursor: pointer;
     position: absolute;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 4px 4px 10px #01A1A1b3;
+    box-shadow: 0px 4px 10px #0099DBb3;
 }
 
 /* menu-button icons NOT ACTIVE */
@@ -478,9 +478,9 @@ footer {
     align-items: center;
     transition: 0.5s;
     animation: change 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    background-color: #01A1A1;
+    background-color: #0099DB;
     border-radius: 50%;
-    box-shadow: 4px 4px 10px #01A1A1b3;
+    box-shadow: 0px 4px 10px #0099DBb3;
 }
 #theme-icon{
     height: auto;
@@ -623,13 +623,13 @@ footer {
         transform: translate(0%, 0%);
     }
     30% {
-        transform: translate(20%, -20%);
+        transform: translate(60%, -20%);
     }
     70% {
-        transform: translate(-50%, -10%);
+        transform: translate(-20%, -60%);
     }
     95% {
-        transform: translate(-10%, -5%);
+        transform: translate(-10%, -50%);
     }
 }
 
@@ -638,7 +638,7 @@ footer {
         transform: translate(0%, 0%);
     }
     30% {
-        transform: translate(-20%, 10%);
+        transform: translate(-40%, 60%);
     }
     70% {
         transform: translate(-50%, 0%);
