@@ -277,7 +277,7 @@ button {
 }
 
 .btnField::-webkit-scrollbar-thumb {
-    background-color: #01a1a1;
+    background-color: #d6dee1;
     border-radius: 5px;
 }
 
