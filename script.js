@@ -16,6 +16,7 @@ let modeBtn = () => {
     if (mode == true) {
         // Dark theme chnages
         body.style.backgroundImage = "url('backgroundDark.png')";
+        body.style.color = "#ffffff";
 
         for (i = 0; i < btn.length; i++) {
             btn[i].style = "background: #010815; color: #fff;";
@@ -35,6 +36,7 @@ let modeBtn = () => {
     else if (mode == false) {
         // light theme changes
         body.style.backgroundImage = "url('background.png')";
+        body.style.color = "#0E4E72";
 
         for (i = 0; i < btn.length; i++) {
             btn[i].style = "background: #fff; color: #0E4E72;";
@@ -45,8 +47,6 @@ let modeBtn = () => {
         }//Field Background and backdrop change
 
         btn.style = "background: #fff; color: #0E4E72;";
-        
-        body.style.color = "#0E4E72";
         
         themeIcon.src = sun;
         themeIcon.style.animation = "change2 0.3s ease-in";
